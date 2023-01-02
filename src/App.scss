@@ -1,0 +1,18 @@
+
+
+$backgroundBlack:#20222b;
+$displayFlex:flex;
+$font16: 1.6rem;
+$height80vh:80vh;
+
+@import './styles/header.scss';
+@import './styles/footer.scss';
+.header {
+    background-color: $backgroundBlack;
+}
+.main-content {
+    min-height: $height80vh;
+    justify-content: center;
+    align-items: center;
+    display: $displayFlex;
+}
